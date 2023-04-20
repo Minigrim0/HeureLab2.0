@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "heurelab"
+version = "0.1.0"
+description = "A simple webpage to display cool stuff on TVs"
+authors = ["Minigrim0 <grimauflorent@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

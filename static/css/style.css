@@ -1,0 +1,29 @@
+.content {
+    padding: 10px;
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:
+    'time time stib'
+    'grafana1 grafana2 stib'
+    'grafana3 grafana4 stib';
+}
+
+.time-tile { grid-area: time; }
+.stib-tile { grid-area: stib; }
+.grafana-tile1 { grid-area: grafana1; }
+.grafana-tile2 { grid-area: grafana2; }
+.grafana-tile3 { grid-area: grafana3; }
+.grafana-tile4 { grid-area: grafana4; }
+
+.tile {
+    /* display: inline-grid; */
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #0004;
+}
